@@ -1,0 +1,14 @@
+# 依赖
+node_modules/
+.pnpm-store/
+
+# 构建缓存与中间产物
+dist/
+.vite/
+.cache/
+
+# 日志与临时文件
+*.log
+.DS_Store
+
+# 注意：本任务要求提交 build/ 下的可直接浏览产物，因此该目录不在此忽略。
