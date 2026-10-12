@@ -29,7 +29,7 @@
 | --- | --- | --- | --- |
 | 1.1 | GitHub 与 Markdown 基础 | 本仓库及目录结构 | 已完成 |
 | 1.2 | 研究总结（选题：Multimodal Video Visualization） | `T02/Multimodal Video Visualization.md`、`T02/reference/`（5 篇原文已归档） | 进行中（提纲已就绪，正文待撰写） |
-| 1.3 | 【设计方向必做】可视化系统设计 | `T03/README.md`、`T03/design.png` | 待完成 |
+| 1.3 | 【设计方向必做】可视化系统设计 | `T03/README.md`、`T03/design.png` | 已完成 |
 | 1.4 | 【前端方向必做】可视化设计实现（增强雷达图） | `T04/README.md`、`T04/src/`、`T04/build/` | 待完成 |
 | 1.5 | AI 工具使用总结 | `T05/README.md` | 待完成 |
 
