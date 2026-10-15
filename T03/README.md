@@ -194,10 +194,10 @@
 
 | 打开方式 | 链接 | 说明 |
 | --- | --- | --- |
-| 仓库内的文件 | [`T03/prototype/index.html`](prototype/index.html) | 点开后是**源码页**；下载到本地后双击即可在浏览器中运行 |
-| 在线预览（push 后即可用，无需任何配置） | [raw.githack 预览](https://raw.githack.com/aerichandusu/HuangZiQi1114/main/T03/prototype/index.html) | 点开就是可交互页面，推荐用它做演示与分享 |
-| 在线预览（备用） | [htmlpreview 预览](https://htmlpreview.github.io/?https://github.com/aerichandusu/HuangZiQi1114/blob/main/T03/prototype/index.html) | 若上一个服务不可用，可用这个 |
-| GitHub Pages（在仓库设置中开启后） | [Pages 链接](https://aerichandusu.github.io/HuangZiQi1114/T03/prototype/) | 最稳定的长期链接；开启方式见下 |
+| **GitHub Pages（推荐）** | [https://aerichandusu.github.io/HuangZiQi1114/T03/prototype/](https://aerichandusu.github.io/HuangZiQi1114/T03/prototype/) | 开启后点开即是可交互页面，链接最稳定，适合交给评审直接体验 |
+| 在线预览（无需任何配置，现在就能用） | [htmlpreview 预览](https://htmlpreview.github.io/?https://github.com/aerichandusu/HuangZiQi1114/blob/main/T03/prototype/index.html) | 临时演示用；若加载较慢，刷新一次即可 |
+| 仓库内的文件 | [`T03/prototype/index.html`](prototype/index.html) | 点开后是**源码页**；可点右上角 `Download raw file` 下载，双击即可在本地浏览器运行 |
+| 下载原始文件 | [jsDelivr](https://cdn.jsdelivr.net/gh/aerichandusu/HuangZiQi1114@main/T03/prototype/index.html) | 该链接返回的是纯文本，用于下载或嵌入，**不作为页面打开** |
 
 **开启 GitHub Pages 的步骤**（约 30 秒，只需做一次）：仓库页面 → `Settings` → 左侧 `Pages` → `Source` 选 `Deploy from a branch` → `Branch` 选 `main`、目录选 `/ (root)` → `Save`；等待约 1 分钟后再访问上表的 Pages 链接即可。
 
