@@ -2,7 +2,7 @@
 
 > 任务：【设计方向必做】可视化系统设计
 > 交付物：本文档 + 同目录 `design.png`（完整设计图）
-> 附：可交互原型 `JobLens-交互原型/index.html`（单文件，双击即可用浏览器打开）
+> 附：可交互原型 [`prototype/index.html`](prototype/index.html)（单文件，双击即可用浏览器打开；在线打开方式见第五节）
 
 ---
 
@@ -207,7 +207,20 @@
 | --- | --- |
 | `design.png` | 完整设计图（Figma 画板导出，含 ①②③④⑤⑥⑦⑧⑨ 九个板块） |
 | 本文档 | 系统说明：目的、基本设计、使用说明、洞察与决策 |
-| `JobLens-交互原型/index.html` | 可交互原型：单文件、免安装，双击用浏览器打开即可演示岗位切换与关键词拖拽分析 |
+| [`prototype/index.html`](prototype/index.html) | 可交互原型：单文件、免安装，双击用浏览器打开即可演示岗位切换与关键词拖拽分析 |
+
+### 5.1 可交互原型的打开方式
+
+原型是一个**自包含的单 HTML 文件**（无需服务器、无外部依赖、无网络请求），因此本地与在线都能直接运行。
+
+| 打开方式 | 链接 | 说明 |
+| --- | --- | --- |
+| 仓库内的文件 | [`T03/prototype/index.html`](prototype/index.html) | 点开后是**源码页**；下载到本地后双击即可在浏览器中运行 |
+| 在线预览（push 后即可用，无需任何配置） | [raw.githack 预览](https://raw.githack.com/aerichandusu/HuangZiQi1114/main/T03/prototype/index.html) | 点开就是可交互页面，推荐用它做演示与分享 |
+| 在线预览（备用） | [htmlpreview 预览](https://htmlpreview.github.io/?https://github.com/aerichandusu/HuangZiQi1114/blob/main/T03/prototype/index.html) | 若上一个服务不可用，可用这个 |
+| GitHub Pages（在仓库设置中开启后） | [Pages 链接](https://aerichandusu.github.io/HuangZiQi1114/T03/prototype/) | 最稳定的长期链接；开启方式见下 |
+
+**开启 GitHub Pages 的步骤**（约 30 秒，只需做一次）：仓库页面 → `Settings` → 左侧 `Pages` → `Source` 选 `Deploy from a branch` → `Branch` 选 `main`、目录选 `/ (root)` → `Save`；等待约 1 分钟后再访问上表的 Pages 链接即可。
 
 **绘制与实现方式**：设计图在 **Figma** 中完成，画板 1591 × 2516；为保证图表精度，地图（省级行政区边界分级色块）、雷达图、薪资区间条、行业矩形树图、门槛热力矩阵等图形采用矢量方式绘制后导入 Figma。可交互原型使用 HTML + CSS + 原生 JavaScript 手写实现，图表以 SVG 动态生成，无需任何外部依赖。
 
